@@ -6,7 +6,7 @@ PASSWORD="${3}"
 
 if [[ -z "${MACHINE}" ]]
   then
-    echo "Enter IP/hostname of the machine you want to connect to:"
+    echo "Enter IP/hostname of machine to connect to:"
     read -r MACHINE
 fi
 
