@@ -24,4 +24,6 @@ if [[ -z "${PASSWORD}" ]]
     PASSWORD="studentlab"
 fi
 
-xfreerdp +nego +sec-rdp +sec-tls +sec-nla /d: /u: /p: /v:"${MACHINE}" /u:"${USERNAME}" /p:"${PASSWORD}" /size:1440x900 /tls-seclevel:0
+# /size:1440x900
+
+xfreerdp +nego +sec-rdp +sec-tls +sec-nla /d: /u: /p: /v:"${MACHINE}" /u:"${USERNAME}" /p:"${PASSWORD}" /tls-seclevel:0
